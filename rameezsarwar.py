@@ -504,7 +504,6 @@ def pilih_super():
                              ·;~-.¸     ¸,.;´
 
 Don't Worry Your Checkpoint ID Will Be Open After 7 Days 
-
 •\033[1;93m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
 : \033[1;96m ....ITX RAMI....... \033[1;93m :
 •\033[1;93m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
