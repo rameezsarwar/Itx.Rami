@@ -476,8 +476,7 @@ def pilih_super():
 																	cek = open("out/checkpoint.txt", "a")
 	except:
          pass																cek.write(user+"|"+pass7+"\n")
-																	cek.close()
-																	cekpoint.append(user+pass7)	
+																	cek.close()																cekpoint.append(user+pass7)	
 	p = ThreadPool(50)
 	p.map(main, id)
 	print "\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mrameezsarwar\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
