@@ -475,7 +475,6 @@ def pilih_super():
 																	print '\x1b[1;96mCheckpoint\x1b[1;97m-\x1b[1;96m▬\x1b[1;97m-' + user + '-\x1b[1;96m▬\x1b[1;97m-' + pass7
 																	cek = open("out/checkpoint.txt", "a")
 	except:
-         
          pass																cek.write(user+"|"+pass7+"\n")
 																	cek.close()
 																	cekpoint.append(user+pass7)	
